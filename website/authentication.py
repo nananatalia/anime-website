@@ -1,6 +1,6 @@
 # storing roots for the website
 
-from flask import Blueprint
+from flask import Blueprint, render_template
 
 
 # define that this file is a blueprint of application
@@ -9,7 +9,7 @@ authentication = Blueprint("authentication", __name__)
 
 @authentication.route("/login")
 def login():
-    return "<h3>Login</h3>"
+    return render_template("login.html")
 
 @authentication.route("/logout")
 def logout():
@@ -17,7 +17,7 @@ def logout():
 
 @authentication.route("/sign-up")
 def sign_up():
-    return "<p>Sign up</p>"
+    return render_template("sign_up.html")
 
 @authentication.route("/profile")
 def profile():

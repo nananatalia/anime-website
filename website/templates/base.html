@@ -42,7 +42,7 @@
     <header>
         <div class="navbar">
             <div class="logo">
-                <a href="#">Cactus</a>
+                <a id="home" href="/">Cactus</a>
             </div>
             <div class="nav">
                 <ul>
@@ -67,7 +67,8 @@
     </header>
 
     <div class="container">
-        
+        {% block content %}
+        {% endblock %}
     </div>
 
 
