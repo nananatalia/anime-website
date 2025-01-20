@@ -174,3 +174,26 @@ form button {
 form button:hover {
     background-color: rgb(187, 22, 22);
 }
+
+.alert-success {
+    color: white;
+    background-color: green;
+    width: 400px;
+    padding: 20px;
+    margin: 20px;
+    margin-left: 460px;
+    text-align: center;
+    justify-content: center;
+}
+  
+.alert-error {
+    color: white;
+    background-color: red;
+    width: 400px;
+    padding: 20px;
+    margin: 20px;
+    margin-left: 460px;
+    text-align: center;
+    justify-content: center;
+}
+
